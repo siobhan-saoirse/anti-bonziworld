@@ -1,23 +1,23 @@
 {
-    "name": "Anti-Grabify",
-    "version": "1.14",
-    "manifest_version": 2,
-    "description": "Blocks IP grabbers from Grabify and 50+ other IP grabber links.",
-    "background": {
-      "scripts": ["background.js"]
-    },
-  
+    "name": "Anti-BonziWORLD",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Blocks everything known to man about BonziWORLD.",
     "icons": {
       "128" : "icon_128.png"
     },
-    "browser_action": {
-      "default_icon": "icon_128.png",
-      "default_title": "Anti-Grabify",
-      "default_popup": "popup.html"
-    },
+    "host_permissions": ["*://*/*"  ], 
+	  "declarative_net_request" : {
+		"rule_resources" : [
+			{
+			  "id": "no_bw",
+			  "enabled": true,
+			  "path": "no_bw.json"
+			}
+		]
+	  },
     "permissions": [
-      "webRequest",
-      "webRequestBlocking",
-      "<all_urls>"
+		"declarativeNetRequest",
+		"declarativeNetRequestFeedback"
     ]
   }

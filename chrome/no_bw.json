@@ -1,0 +1,39 @@
+[
+{
+  "id" : 1,
+  "priority": 1,
+  "action" : { "type" : "block" },
+  "condition" : {
+    "urlFilter" : "bonziworld",
+    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  }
+},
+{
+  "id" : 2,
+  "priority": 1,
+  "action" : { "type" : "block" },
+  "condition" : {
+    "urlFilter" : "bonkeyword",
+    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  }
+}
+,
+{
+  "id" : 3,
+  "priority": 1,
+  "action" : { "type" : "block" },
+  "condition" : {
+    "urlFilter" : "uranohoshi",
+    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  }
+},
+{
+  "id" : 4,
+  "priority": 1,
+  "action" : { "type" : "block" },
+  "condition" : {
+    "urlFilter" : "bonzi",
+    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  }
+}
+]
