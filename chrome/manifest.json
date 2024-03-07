@@ -6,7 +6,6 @@
     "icons": {
       "128" : "icon_128.png"
     },
-    "host_permissions": ["*://*/*"  ], 
 	  "declarative_net_request" : {
 		"rule_resources" : [
 			{
@@ -16,7 +15,8 @@
 			}
 		]
 	  },
-    "permissions": [
+    "permissions": [ 
+		"activeTab",
 		"declarativeNetRequest",
 		"declarativeNetRequestFeedback"
     ]
