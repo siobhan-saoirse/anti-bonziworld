@@ -2,7 +2,7 @@
     "name": "Anti-BonziWORLD",
     "version": "1.0",
     "manifest_version": 3,
-    "description": "Blocks everything known to man about BonziWORLD.",
+    "description": "Blocks everything about BonziWORLD known to man.",
     "icons": {
       "128" : "icon_128.png"
     },

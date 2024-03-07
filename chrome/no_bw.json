@@ -26,14 +26,5 @@
     "urlFilter" : "uranohoshi",
     "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
   }
-},
-{
-  "id" : 4,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "bonzi",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
-  }
 }
 ]
