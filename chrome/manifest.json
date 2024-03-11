@@ -1,8 +1,8 @@
 {
     "name": "Anti-BonziWORLD",
-    "version": "1.0",
+    "version": "1.0.2",
     "manifest_version": 3,
-    "description": "Blocks everything about BonziWORLD known to man.",
+    "description": "Blocks everything about BonziWORLD known to man from the URL.",
     "icons": {
       "128" : "icon_128.png"
     },
@@ -16,7 +16,6 @@
 		]
 	  },
     "permissions": [ 
-		"activeTab",
 		"declarativeNetRequest",
 		"declarativeNetRequestFeedback"
     ]
