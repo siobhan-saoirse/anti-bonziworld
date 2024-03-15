@@ -33,3 +33,6 @@ chrome.browserAction.setTitle({
     title: "Anti-BonziWORLD is active.",
 });
 */
+chrome.action.setTitle({
+    title: "Anti-BonziWORLD is active.",
+});

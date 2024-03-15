@@ -6,7 +6,7 @@
     "icons": {
       "128" : "icon_128.png"
     },
-	  "declarative_net_request" : {
+	"declarative_net_request" : {
 		"rule_resources" : [
 			{
 			  "id": "no_bw",
@@ -14,7 +14,11 @@
 			  "path": "no_bw.json"
 			}
 		]
-	  },
+	},  
+	"action": {
+		"default_title": "Anti-BonziWORLD",
+		"default_popup": "popup.html"
+	},	
     "permissions": [ 
 		"declarativeNetRequest",
 		"declarativeNetRequestFeedback"
