@@ -37,4 +37,14 @@
     "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
   }
 }
+,
+{
+  "id" : 5,
+  "priority": 1,
+  "action" : { "type" : "block" },
+  "condition" : {
+    "urlFilter" : "onrender",
+    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  }
+}
 ]
