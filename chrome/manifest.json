@@ -1,6 +1,6 @@
 {
     "name": "Anti-BonziWORLD",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "manifest_version": 3,
     "description": "Blocks everything about BonziWORLD known to man from the URL.",
     "icons": {
