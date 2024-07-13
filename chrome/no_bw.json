@@ -47,4 +47,14 @@
     "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
   }
 }
+,
+{
+  "id" : 6,
+  "priority": 1,
+  "action" : { "type" : "block" },
+  "condition" : {
+    "urlFilter" : "ngrok",
+    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  }
+}
 ]
