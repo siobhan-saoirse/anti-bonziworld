@@ -1,70 +1,110 @@
 [
-{
-  "id" : 1,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "bonziworld",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  {
+    "id" : 1,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "bonziworld",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  },
+  {
+    "id" : 2,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "bonkeyword",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
   }
-},
-{
-  "id" : 2,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "bonkeyword",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  ,
+  {
+    "id" : 3,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "uranohoshi",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
   }
-}
-,
-{
-  "id" : 3,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "uranohoshi",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  ,
+  {
+    "id" : 4,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "replit.dev",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
   }
-}
-,
-{
-  "id" : 4,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "replit.dev",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  ,
+  {
+    "id" : 5,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "onrender",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
   }
-}
-,
-{
-  "id" : 5,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "onrender",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  ,
+  {
+    "id" : 6,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "ngrok",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
   }
-}
-,
-{
-  "id" : 6,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "ngrok",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  ,
+  {
+    "id" : 7,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "bonzi",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
   }
-}
-,
-{
-  "id" : 7,
-  "priority": 1,
-  "action" : { "type" : "block" },
-  "condition" : {
-    "urlFilter" : "bonzi",
-    "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+  ,
+  {
+    "id" : 8,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "wiki.bonzi",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
   }
-}
+  ,
+  {
+    "id" : 9,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "nigger.email",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
+  ,
+  {
+    "id" : 10,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "pwnsec",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
+  ,
+  {
+    "id" : 11,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "dinorme",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
 ]

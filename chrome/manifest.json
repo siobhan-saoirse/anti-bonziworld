@@ -1,8 +1,8 @@
 {
     "name": "Anti-BonziWORLD",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "manifest_version": 3,
-    "description": "Blocks everything about BonziWORLD known to man from the URL.",
+    "description": "Blocks everything about the far-right side of BonziWORLD known to man from the URL.",
     "icons": {
       "128" : "icon_128.png"
     },
