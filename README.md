@@ -1,7 +1,12 @@
 # Anti-BonziWORLD Browser Extension
-The forkie GitHub repository for the Anti-BonziWORLD add-on / extension. If you don't know what Anti-BonziWORLD is, it is a browser extension which is meant for blocking all mentions of bonziworld in the URL. This extension will block most the bonziworld links out there including those from bonziworld.org and uranohoshi.in (not to be confused with the 2019 one). BonziWORLD.org is known to grab IPs, encourage harassment towards innocents, spread misinformaton or disinformation about Seamus and some others, and more unhealthy and cybercriminal-wannabe things. They are also known to DDoS some websites, including competing servers like bonziworld.co (anti-competitive behaviour, am i right about that?), act like they're the boss of everyone, manipulate people (even young children!), falsely report other domains, sending CP, and so much more abusive actions that have yet to be named here.
+The GitHub repository for the Anti-BonziWORLD add-on / extension, based off of Konnor88's impressive browser extension named Anti-Grabify. 
 
-Protect yourself from the most toxic community in the world. Download the extension today!
+It blocks almost anything from the far-right side of BW from being visited due to how it promotes hate, misinformation and many terrible things that shouldn't be tolerated in today's society.
 
-You can get the extension from these links or here:
+Protect yourself from the far-right side of BonziWORLD. Download the extension today!
+
+You can get the extension from these links:
+
 [Chrome Web Store](https://chromewebstore.google.com/detail/anti-bonziworld/glenpcbimgglcphcoddjbobfmmdkpalj)
+
+Firefox Add-ons - Coming soon!
