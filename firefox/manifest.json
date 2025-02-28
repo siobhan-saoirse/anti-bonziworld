@@ -1,8 +1,8 @@
 {
-  "name": "Anti-Grabify",
-  "version": "1.14",
+  "name": "Anti-BonziWORLD",
+  "version": "1.1.0",
   "manifest_version": 2,
-  "description": "Blocks IP grabbers from Grabify and 50+ other IP grabber links.",
+  "description": "Blocks everything about the far-right side of BonziWORLD known to man from the URL.",
   "background": {
     "scripts": [
       "background.js"
@@ -19,7 +19,7 @@
   },
   "browser_action": {
     "default_icon": "icon_128.png",
-    "default_title": "Anti-Grabify",
+    "default_title": "Anti-BonziWORLD",
     "default_popup": "popup.html"
   },
   "permissions": [
