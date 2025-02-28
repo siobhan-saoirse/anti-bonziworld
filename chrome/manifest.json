@@ -1,17 +1,35 @@
 {
     "name": "Anti-BonziWORLD",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "manifest_version": 3,
     "description": "Blocks everything about the far-right side of BonziWORLD known to man from the URL.",
     "icons": {
       "128" : "icon_128.png"
     },
+	"background": {
+		"service_worker": "background.js"
+	},
 	"declarative_net_request" : {
 		"rule_resources" : [
 			{
 			  "id": "no_bw",
 			  "enabled": true,
 			  "path": "no_bw.json"
+			},
+			{
+			  "id": "grabify-urls",
+			  "enabled": true,
+			  "path": "grabify-urls.json"
+			},
+			{
+			  "id": "iplogger-urls",
+			  "enabled": true,
+			  "path": "iplogger-urls.json"
+			},
+			{
+			  "id": "other-urls",
+			  "enabled": true,
+			  "path": "other-urls.json"
 			}
 		]
 	},  
@@ -21,6 +39,6 @@
 	},	
     "permissions": [ 
 		"declarativeNetRequest",
-		"declarativeNetRequestFeedback"
+		"declarativeNetRequestFeedback",
     ]
   }

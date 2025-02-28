@@ -107,4 +107,64 @@
       "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
     }
   }
+  ,
+  {
+    "id" : 12,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "cremeens",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
+  ,
+  {
+    "id" : 13,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "creemens",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
+  ,
+  {
+    "id" : 14,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "troon",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
+  ,
+  {
+    "id" : 15,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "tranny",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
+  ,
+  {
+    "id" : 16,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "doxbin",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
+  ,
+  {
+    "id" : 17,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "nigger",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
 ]

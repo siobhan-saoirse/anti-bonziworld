@@ -1,38 +1,6 @@
-// DEPRECATED
-/*
-chrome.webRequest.onBeforeRequest.addListener(
-    function (details) {
-        chrome.tabs.update({
-            url: "blocked.html",
-        });
-        return { cancel: true };
-    },
-    {
-        urls: [
-            "*://bonziworld.org/*",
-            "*://*.bonziworld.org/*",
-            "*://bonziworld.co/*",
-            "*://*.bonziworld.co/*",
-            "*://uranohoshi.in/*",
-            "*://*.uranohoshi.in/*",
-            "*://bonzi.ga/*",
-            "*://*.bonzi.ga/*",
-            "*://bonzi.tk/*",
-            "*://*.bonzi.tk/*",
-            "*://bonzi.ml/*",
-            "*://*.bonzi.ml/*",
-            "*://bonziworldrevived.tk/*",
-            "*://*.bonziworldrevived.tk/*",
-            "*://bonkeyword.tk/*",
-            "*://*.bonkeyword.tk/*",
-        ],
-    },
-    ["blocking"]
-);
-chrome.browserAction.setTitle({
-    title: "Anti-BonziWORLD is active.",
-});
-*/
+// blocking ip grabbers to prevent any malicious attacks from the skids of warsaw/pwnsec
+// also blocks bonziworld, slurs, my surname and other bs from these horrible people
+
 chrome.action.setTitle({
-    title: "Anti-BonziWORLD is active.",
+    title: 'Anti-BonziWORLD is active.'
 });
