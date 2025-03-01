@@ -167,4 +167,14 @@
       "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
     }
   }
+  ,
+  {
+    "id" : 18,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "Yuphr2bYr5",
+      "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
+    }
+  }
 ]
