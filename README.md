@@ -9,4 +9,4 @@ You can get the extension from these links:
 
 [Chrome Web Store](https://chromewebstore.google.com/detail/anti-bonziworld/glenpcbimgglcphcoddjbobfmmdkpalj)
 
-Firefox Add-ons - Coming soon!
+[Firefox Add-ons](https://addons.mozilla.org/addon/anti-bonziworld/)
