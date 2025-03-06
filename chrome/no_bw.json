@@ -4,7 +4,7 @@
     "priority": 1,
     "action" : { "type" : "block" },
     "condition" : {
-      "urlFilter" : "bonziworld",
+      "urlFilter" : "bonziworld.org",
       "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
     }
   },
@@ -63,7 +63,7 @@
     "priority": 1,
     "action" : { "type" : "block" },
     "condition" : {
-      "urlFilter" : "bonzi",
+      "urlFilter" : "bonzi.",
       "resourceTypes" : ["main_frame","websocket","script","media","sub_frame","ping"]
     }
   }
